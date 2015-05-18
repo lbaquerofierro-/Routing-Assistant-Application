@@ -1,0 +1,31 @@
+<!--
+	Author: Lina Baquero
+    Date: March 15, 2015
+	Description: Home screen, must be clicked to go to main menu
+	-->
+
+<html>
+	<head>
+		<title>LibNav 0.1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="stylesheet" href="css/standardize.css">
+		<link rel="stylesheet" href="css/index-grid.css">
+		<link rel="stylesheet" href="css/stylemap.css">
+    
+	</head>
+
+	<body id="body2" class="body page-index clearfix" onclick="changeScreen();">
+
+	</body>
+	<script>
+
+		/*Change screen when the background is clicked*/
+		function changeScreen(){
+            window.location.href = 'origin.html';
+		}
+        //If user does not click after 5 seconds change screen to main menue
+		setTimeout(function(){
+				window.location = 'origin.html';
+			}, 5000);</script>
+</html>

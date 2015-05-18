@@ -1,0 +1,336 @@
+/*
+	Author: Lina Baquero
+	Description: This file contains the css of the entire application
+*/
+
+
+/*index.html*/
+#body2{
+	background: url("../images/background/background-welcome.png") rgb(255, 255, 255) no-repeat center center;
+	min-height: 100%; 
+	background-size: cover;
+}
+ion-view {
+    background: #333 !important;
+}
+/*mainMenu.html*/
+#body3{
+	background: url("../images/background/background-main.png");
+	min-height: 100%;
+	background-size: cover; 
+}
+
+/*info.htm origin.hrml, map.html*/
+#body1{
+	background: url("../images/background/background-frosted.png") rgb(255, 255, 255) no-repeat center center;
+	min-height: 100%; 
+	background-size: cover; 
+	
+}
+#footer{
+	width: 100%; 
+	position: fixed; 
+	height: 36px; 
+	line-height: 36px; ; 
+	border: 1px solid black;
+	background-color: black; 
+	bottom: 0px; 
+}
+
+/*mainMenu.html*/
+.textBlock {
+	color: white;
+	font-size: 110%;
+	position: absolute;
+	width: 75%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.options {
+  width: 60%;
+  margin: 245px auto 0;
+}
+.selectroute {
+  display: block;
+  float: left;
+  width: 28%;
+  height: auto;
+  margin: 1px 0 0 1.48705%;
+  overflow: hidden;
+}
+
+.tutorial {
+  display: block;
+  float: left;
+  width: 28%;
+  height: auto;
+  margin: 1px 0 0 5.80672%;
+  overflow: hidden;
+}
+.info {
+  display: block;
+  float: right;
+  width: 28%;
+  height: auto;
+  margin: 1px 1.65996% 0 0;
+  overflow: hidden;
+}
+
+
+/*origin.html*/
+#errors {
+	color: red;
+	position: absolute;    
+    left: 50%;
+    top: 32%;
+	transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	text-align: left;
+	width: 200px;
+}
+#loc{
+	position: absolute;    
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#dest{
+	position: absolute;    
+    left: 50%;
+    top: 51%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+._select {
+  height: 50px;
+  width: 300px;
+  font-family: sans-serif;  
+  padding-left: 10px;
+  border-radius: 3px;
+  background: url('../images/select-arrows.svg') rgba(230, 230, 230, 0.86);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: right center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+#go{
+	position: absolute;    
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 1em; 
+    border-radius: 3px; 
+    width: 120px; 
+    font-family: sans-serif; 
+    padding: 5px 0px 5px 0px; 
+    background-color: #B7B7B7; 
+    color: white; 
+    opacity: 0.8; 
+}
+#go .selected{
+	text-align: center; 
+}
+
+
+/*map.html*/
+#home{
+	height: 70%; 
+	position: absolute; 
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#back{
+	padding-top: 3px; 
+	height: 80%; 
+	float: right; 
+	margin-right: 20px; 
+}
+#forward{
+	padding-top: 3px; 
+	height: 80%; 
+	float: left; 
+	margin-left: 20px; 
+}
+#inst{
+	width: 100%; 
+	position: fixed; 
+	height: 70px;
+	
+	background-color: rgba(110,128,148, 0.80);
+	bottom: 36px; 
+	color: white; 
+	font-family: sans-serif;
+	text-align: center; 
+    font-size: 110% !important;
+}
+
+#loadPlan{
+	position: absolute;
+    width: 75%;     
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media(max-width: 768px){
+	#inst {
+    font-size: 80%; 
+  }
+}
+
+@media(max-width: 480px){
+	#inst {
+    font-size: 75%; 
+  }
+}
+
+@media(max-width: 414px) {
+  #inst {
+    font-size: 75%; 
+  }
+}
+
+@media(max-width 320px){
+	#inst{
+		font-size: 75%; 
+	}
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/*blink css*/
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.blink {
+-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease-in-out;
+    
+-moz-animation-direction: normal;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: ease-in-out;    
+}
+
+
+#text {
+    postion: absolute;
+    word-wrap: break-word;
+    overflow-x: auto; 
+}
+
+.bar{
+      background-color: black !important;
+    color: white !important;
+    }
+
+.scroll-content {
+      overflow: visible !important;
+    }
+.button {
+    background-color: black !important;
+    font-family: "￼￼￼Open Sans" !important;
+    font-size: 15px !important;
+}
+
+.title{
+    font-family: "￼￼￼Open Sans" !important;
+     font-size: 25px !important;
+}￼
+
+
+
+#scroll {
+
+	position: fixed; 
+	left: 5%;
+    bottom: 7%;
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.item {
+    
+   
+    background-color: rgba(0, 0, 0, .50) !important;
+    
+    
+}
+h3{
+    color:  white !important;
+}
+
+p{
+    color:white !important;
+}
+
+h2{
+    color:  white !important;
+}
+    

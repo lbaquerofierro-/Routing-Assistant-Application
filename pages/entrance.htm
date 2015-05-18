@@ -1,0 +1,23 @@
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">I am at...</h1>
+<!--      <button class="button-left icon ion-ios-home-outline " ng-click="goToMain()"> Home</button>-->
+    </ion-header-bar>
+
+    <ion-content>
+
+      <div class="list" ng-controller="locationController">
+        <div ng-repeat="entrance in entrances" 
+           ng-click = "start(entrance.value); goToDestination ()"
+           class="item item-thumbnail-left">
+
+          <img ng-src="{{entrance.image}}">
+          <h2>{{ entrance.name }}</h2>
+          <p>{{ entrance.floor }}</p>
+        </div>
+      </div>   
+    </ion-content>
+<ion-footer-bar >
+    <div id="footer">
+			<input id="home" type="image" src="images/icons/home.png" onclick="window.location.href='origin.html'" value="Home"></input>
+		</div>
+    </ion-footer-bar >

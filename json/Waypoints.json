@@ -1,0 +1,875 @@
+[
+{
+        "name": "mainEntranceNonDest",
+        "type": 3,
+        "xCoord": "50%",
+        "yCoord": "730%",
+        "floor": 1,
+        "text": "Enter through the main doors and walk through the Esbenshade Atrium",
+        "imageName": "mainEntrance"
+},   
+
+    {
+        "name": "firstFloorEsbenshade",
+        "type": 3,
+        "xCoord": "-50%",
+        "yCoord": "200%",
+        "floor": 1,
+        "text": "Walk into the Esbenshade Atrium, bearing left",
+        "imageName": "esbenshadeFirstFloor"
+    },
+    {
+        "name": "170_custServ",
+        "type": 5,
+        "xCoord": "50%",
+        "yCoord": "-60%",
+        "floor": 1,
+        "text": "",
+        "imageName": "170toCustServ"
+    },
+    {
+        "name": "170_fromVines",
+        "type": 3,
+        "xCoord": "-20%",
+        "yCoord": "-40%",
+        "floor": 1,
+        "text": "Continuing across the Atrium, the 170 Suite will be to the left of the Media Wall",
+        "imageName": "170_fromVines"
+    },
+    {
+        "name": "170_custServInvisible",
+        "type": 5,
+        "xCoord": "50%",
+        "yCoord": "-180%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "170Elevator_custServ",
+        "type": 3,
+        "xCoord": "280%",
+        "yCoord": "-270%",
+        "floor": 1,
+        "text": "",
+        "imageName": "170Elevator_toCustomerService"
+    },
+    {
+        "name": "customerService",
+        "type": 2,
+        "xCoord": "-280%",
+        "yCoord": "0%",
+        "floor": 1,
+        "text": "You have reached the Customer Service Center",
+        "imageName": "custService"
+    },
+    {
+        "name": "firstFloorElevatorSouth",
+        "type": 3,
+        "xCoord": "-1050%",
+        "yCoord": "60%",
+        "floor": 1,
+        "text": "Please exit the elevator and turn left",
+        "imageName": "1stFloorElevSouth"
+    },
+    {
+        "name": "firstFloorCommons_custServ",
+        "type": 3,
+        "xCoord": "-1050%",
+        "yCoord": "-40%",
+        "floor": 1,
+        "text": "Turn right and continue past the Carter Learning Commons",
+        "imageName": "1stFloorCommons_custServ"
+    },
+    {
+        "name": "vinesEntrance_toStairsInvisible",
+        "type": 5,
+        "xCoord": "-850%",
+        "yCoord": "725%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "thirdFloorElevatorSouth",
+        "type": 3,
+        "xCoord": "-1150%",
+        "yCoord": "60%",
+        "floor": 3,
+        "text": "Exit the elevator, turn right",
+        "imageName": "ThirdFloorElevatorSouth"
+    },
+    {
+        "name": "thirdFloorElevatorSouthInvisible",
+        "type": 5,
+        "xCoord": "-1050%",
+        "yCoord": "60%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "thirdFloorElevator_toCaudell",
+        "type": 3,
+        "xCoord": "-1045%",
+        "yCoord": "715%",
+        "floor": 3,
+        "text": "Continue through the hallway",
+        "imageName": "skybridgebackhall"
+    },
+    {
+        "name": "thirdFloor_hallwayToskybridge",
+        "type": 3,
+        "xCoord": "-1045%",
+        "yCoord": "715%",
+        "floor": 3,
+        "text": "Turn left and continue toward the skybridge",
+        "imageName": "elevatortoSkybridge"
+    },
+    {
+        "name": "thirdFloorSkybridgeNorth_scholars",
+        "type": 3,
+        "xCoord": "430%",
+        "yCoord": "710%",
+        "floor": 3,
+        "text": "Exit the skybridge and turn left",
+        "imageName": ""
+    },
+    {
+        "name": "thirdFloorskybridgeSouth_scholars",
+        "type": 5,
+        "xCoord": "-510%",
+        "yCoord": "715%",
+        "floor": 3,
+        "text": "Continue through the skybridge",
+        "imageName": "SkybridgeSouth"
+    },
+    {
+        "name": "thirdFloorWP_scholarsInvisible",
+        "type": 5,
+        "xCoord": "230%",
+        "yCoord": "-30%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "thirdFloorElevatorNorth",
+        "type": 3,
+        "xCoord": "305%",
+        "yCoord": "-130%",
+        "floor": 3,
+        "text": "Please step out of the elevator and turn right",
+        "imageName": "ThirdfloorNorthEle"
+    },
+    {
+        "name": "thirdFloorElevatorNorth_Invisible",
+        "type": 5,
+        "xCoord": "320%",
+        "yCoord": "-40%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "thirdFloorElevatorNorth_scholars",
+        "type": 5,
+        "xCoord": "230%",
+        "yCoord": "-30%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "Scholars Lounge",
+        "type": 2,
+        "xCoord": "190%",
+        "yCoord": "-170%",
+        "floor": 3,
+        "text": "You have reached the Scholar's Lounge",
+        "imageName": "scholarsLounge"
+    },
+    {
+        "name": "thirdFloorToN_Bridge",
+        "type": 3,
+        "xCoord": "220%",
+        "yCoord": "-30%",
+        "floor": 3,
+        "text": "Turn left down the hallway toward the skybridge",
+        "imageName": "elevatortoSkybridge"
+
+    },
+    {
+        "name": "thirdFloorSkybridgeNorth",
+        "type": 3,
+        "xCoord": "430%",
+        "yCoord": "710%",
+        "floor": 3,
+        "text": "Go through the skybridge",
+        "imageName": "SkybridgeNorth"
+    },
+    {
+        "name": "skybridgeSouth",
+        "type": 3,
+        "xCoord": "-510%",
+        "yCoord": "715%",
+        "floor": 3,
+        "text": "Exiting the skybridge, turn left",
+        "imageName": "skybridgeoutgoing"
+
+    },
+    {
+        "name": "Caudell Reading Room",
+        "type": 2,
+        "xCoord": "-520%",
+        "yCoord": "1200%",
+        "floor": 3,
+        "text": "You have reached the Caudell Reading Room",
+        "imageName": "CaudellReadingRoom"
+    },
+    {
+        "name": "Caudell Reading Room South",
+        "type": 2,
+        "xCoord": "-1045%",
+        "yCoord": "1200%",
+        "floor": 3,
+        "text": "You have reached the Caudell Reading Room",
+        "imageName": "CaudellReadingRoom"
+    },
+    {
+        "name": "secondFloorElevatorNorth",
+        "type": 3,
+        "xCoord": "310%",
+        "yCoord": "-130%",
+        "floor": 2,
+        "text": "Exit the elevator and turn right",
+        "imageName": "2ndFloorElevatorNorth"
+    },
+    {
+        "name": "secondFloorToN_Bridge",
+        "type": 5,
+        "xCoord": "235%",
+        "yCoord": "0%",
+        "floor": 2,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "secondFloorTo280",
+        "type": 3,
+        "xCoord": "225%",
+        "yCoord": "-40%",
+        "floor": 2,
+        "text": "Turn right again, toward the 280 Suite",
+        "imageName": "280Suite"
+    },
+    {
+        "name": "secondFloorTo280_Invisible",
+        "type": 5,
+        "xCoord": "225%",
+        "yCoord": "-40%",
+        "floor": 2,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "secondFloorElevatorN_Invisible",
+        "type": 5,
+        "xCoord": "265%",
+        "yCoord": "-40%",
+        "floor": 2,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "220Suite",
+        "type": 2,
+        "xCoord": "-850%",
+        "yCoord": "300%",
+        "floor": 2,
+        "text": "You have reached the 220 Suite",
+        "imageName": "220suite"
+    },
+    {
+        "name": "secondFloorSkybridgeNorth",
+        "type": 3,
+        "xCoord": "360%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Continue through the skybridge",
+        "imageName": "2ndFloorSkybridgeNorth"
+    },
+    {
+        "name": "secondFloorskybridgeSouth_220",
+        "type": 3,
+        "xCoord": "-520%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Continue through the door to exit the skybridge, then turn right",
+        "imageName": "2ndFloorskybridgeSouth_220"
+    },
+    {
+        "name": "secondFloorWP_220",
+        "type": 3,
+        "xCoord": "-500%",
+        "yCoord": "350%",
+        "floor": 2,
+        "text": "Turn left toward 220 Suite",
+        "imageName": "2ndFloorWP_220"
+    },
+    {
+        "name": "220_south_elevator",
+        "type": 3,
+        "xCoord": "-1025%",
+        "yCoord": "300%",
+        "floor": 2,
+        "text": "Turn left toward 220 Suite",
+        "imageName": "220_south_elev"
+    },
+    {
+        "name": "secondFloorElevatorSouth",
+        "type": 3,
+        "xCoord": "-1150%",
+        "yCoord": "60%",
+        "floor": 2,
+        "text": "Exiting the elevator, turn right",
+        "imageName": "southElev_220"
+    },
+    {
+        "name": "secondFloorElevatorSouth_Invisible",
+        "type": 5,
+        "xCoord": "-1050%",
+        "yCoord": "60%",
+        "floor": 2,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "secondFloor_hallwayToskybridge",
+        "type": 3,
+        "xCoord": "-1045%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Turn left and continue toward the skybridge",
+        "imageName": "2ndFloor_hallwayToskybridge"
+    },
+    {
+        "name": "secondFloorSkybridgeSouth_280",
+        "type": 3,
+        "xCoord": "-500%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Continue through the skybridge",
+        "imageName": "2ndFloorSkybridgeNorth"
+    },
+    {
+        "name": "secondFloorSkybridgeNorth_280",
+        "type": 3,
+        "xCoord": "360%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Exiting the skybridge, turn left. Continue through the Learning Commons North",
+        "imageName": "2ndFloorSkybridgeNorth_280"
+    },
+    {
+        "name": "280Suite",
+        "type": 2,
+        "xCoord": "140%",
+        "yCoord": "-330%",
+        "floor": 2,
+        "text": "You have reached the 280 Suite",
+        "imageName": "280Suite"
+    },
+    {
+        "name": "secondFloorComputerWall",
+        "type": 3,
+        "xCoord": "320%",
+        "yCoord": "340%",
+        "floor": 2,
+        "text": "Continue past the computer wall",
+        "imageName": "2ndFloorComputerWall"
+    },
+
+    {
+        "name": "261Suite",
+        "type": 2,
+        "xCoord": "450%",
+        "yCoord": "700%",
+        "floor": 2,
+        "text": "You have reached the 261 Suite",
+        "imageName": "261suite"
+    },
+    {
+        "name": "261Suite_Invisible",
+        "type": 5,
+        "xCoord": "395%",
+        "yCoord": "700%",
+        "floor": 2,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "secondFloorSkybridgeNorth_261",
+        "type": 3,
+        "xCoord": "350%",
+        "yCoord": "715%",
+        "floor": 2,
+        "text": "Continue through the doors exiting the skybridge, continue forward",
+        "imageName": "2ndFloorSkybridgeNorth"
+    },
+    {
+        "name": "backEntrance",
+        "type": 1,
+        "xCoord": "-940%",
+        "yCoord": "-1110%",
+        "floor": 0,
+        "text": "Enter through the hallway",
+        "imageName": "BackEntrance"
+    },
+    {
+        "name": "backHallwayToEsbenshade",
+        "type": 3,
+        "xCoord": "-250%",
+        "yCoord": "-1110%",
+        "floor": 0,
+        "text": "Continue into the Esbenshade Atrium",
+        "imageName": "backToEsbenshade"
+    },
+    {
+        "name": "esbenshadeTo060",
+        "type": 3,
+        "xCoord": "190%",
+        "yCoord": "-600%",
+        "floor": 0,
+        "text": "Passing through the Atrium, go through the doors to the 060 Suite",
+        "imageName": "EsbenshadeTo060"
+    },
+    {
+        "name": "060ToEsbenshade",
+        "type": 3,
+        "xCoord": "205%",
+        "yCoord": "-500%",
+        "floor": 0,
+        "text": "Exit out of the 060 Suite into the Esbenshade Atrium",
+        "imageName": "060toEsbenshade"
+    },
+    {
+        "name": "scienceHallEntrance_Invisible",
+        "type": 5,
+        "xCoord": "100%",
+        "yCoord": "-830%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "terraceFloorElevatorNorth_Invisible",
+        "type": 5,
+        "xCoord": "290%",
+        "yCoord": "-200%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "terraceFloorElevatorNorth",
+        "type": 3,
+        "xCoord": "390%",
+        "yCoord": "-200%",
+        "floor": 0,
+        "text": "Exit the Elevator and continue to the 60 Suite.",
+        "imageName": "060Elevator"
+    },
+    {
+        "name": "terraceFloorElevatorNorth_to1st",
+        "type": 3,
+        "xCoord": "390%",
+        "yCoord": "-190%",
+        "floor": 0,
+        "text": "",
+        "imageName": "060Elevator"
+    },
+    {
+        "name": "scienceHallEntrance",
+        "type": 1,
+        "xCoord": "180%",
+        "yCoord": "-850%",
+        "floor": 0,
+        "text": "Upon entering the building turn left and continue to the elevator.",
+        "imageName": "scienceEntrance"
+    },
+    {
+        "name": "vinesEntrance",
+        "type": 1,
+        "xCoord": "-900%",
+        "yCoord": "725%",
+        "floor": 0,
+        "text": "Enter through the doors and turn left",
+        "imageName": "VinesEntrance"
+    },
+    {
+        "name": "terraceFloorDoorToElevator",
+        "type": 3,
+        "xCoord": "-850%",
+        "yCoord": "425%",
+        "floor": 0,
+        "text": "Walk through the doors, the elevator is on the left",
+        "imageName": "terraceDoorToElevator"
+    },
+    {
+        "name": "terraceFloorElevatorSouth",
+        "type": 3,
+        "xCoord": "-940%",
+        "yCoord": "60%",
+        "floor": 0,
+        "text": "",
+        "imageName": "terraceElevatorSouth"
+    },
+    {
+        "name": "terraceFloorElevatorSouthInvisible",
+        "type": 5,
+        "xCoord": "-855%",
+        "yCoord": "60%",
+        "floor": 0,
+        "text": "Enter the elevator",
+        "imageName": ""
+    },
+    {
+        "name": "mainEntrance",
+        "type": 1,
+        "xCoord": "50%",
+        "yCoord": "730%",
+        "floor": 1,
+        "text": "Enter through the main doors",
+        "imageName": "mainEntrance"
+    },
+    {
+        "name": "mediaWall",
+        "type": 3,
+        "xCoord": "50%",
+        "yCoord": "200%",
+        "floor": 1,
+        "text": "Walk past the media wall",
+        "imageName": "mediaWall"
+    },
+    {
+        "name": "170Invisible",
+        "type": 5,
+        "xCoord": "50%",
+        "yCoord": "-180%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "170ElevatorInvisible",
+        "type": 5,
+        "xCoord": "280%",
+        "yCoord": "-270%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "170Elevator_suite",
+        "type": 2,
+        "xCoord": "280%",
+        "yCoord": "-270%",
+        "floor": 1,
+        "text": "You have reached the 170 Suite",
+        "imageName": "170fromelevator"
+    },
+    {
+        "name": "170Suite",
+        "type": 2,
+        "xCoord": "130%",
+        "yCoord": "-250%",
+        "floor": 1,
+        "text": "You have reached the 170 Suite",
+        "imageName": "170Suite"
+    },
+    {
+        "name": "firstFloorElevatorNorth",
+        "type": 3,
+        "xCoord": "310%",
+        "yCoord": "-160%",
+        "floor": 1,
+        "text": "",
+        "imageName": "firstFloorElevatorNorth"
+    },
+    {
+        "name": "firstFloorElevatorNorth_exit",
+        "type": 3,
+        "xCoord": "310%",
+        "yCoord": "-160%",
+        "floor": 1,
+        "text": "",
+        "imageName": "170fromelevator"
+    },
+    {
+        "name": "firstFloorElevatorNorth_Invisible",
+        "type": 5,
+        "xCoord": "300%",
+        "yCoord": "-110%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "170SuiteNonEnd",
+        "type": 3,
+        "xCoord": "275%",
+        "yCoord": "-260%",
+        "floor": 1,
+        "text": "Continue through the 170 Suite to the Elevator",
+        "imageName": "170suiteNonEnd"
+    },
+    {
+        "name": "firstFloorStairs",
+        "type": 3,
+        "xCoord": "-520%",
+        "yCoord": "740%",
+        "floor": 1,
+        "text": "Continue straight through the hall to the main entrance.",
+        "imageName": "firstfloorstairs"
+    },
+    {
+        "name": "dodakInvisible",
+        "type": 5,
+        "xCoord": "130%",
+        "yCoord": "400%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "dodak",
+        "type": 2,
+        "xCoord": "530%",
+        "yCoord": "400%",
+        "floor": 1,
+        "text": "Congratulations!  You have arrived at the Dodak Learning Center.",
+        "imageName": "DodakPic"
+    },
+    {
+        "name": "361Suite",
+        "type": 2,
+        "xCoord": "645%",
+        "yCoord": "695%",
+        "floor": 3,
+        "text": "Congratulations you have arrived at the 360 Suite.",
+        "imageName": "361SuitePic"
+    },
+    {
+        "name": "groupstudiesSouth",
+        "type": 3,
+        "xCoord": "-1040%",
+        "yCoord": "300%",
+        "floor": 3,
+        "text": "Turn right and proceed forward.",
+        "imageName": "groupSouthPic"
+    },
+    {
+        "name": "320Suite",
+        "type": 2,
+        "xCoord": "-780%",
+        "yCoord": "300%",
+        "floor": 3,
+        "text": "Congratulations you have arrived at your destination.",
+        "imageName": "groupSouthPic"
+    },
+    {
+        "name": "groupstudiesNorth",
+        "type": 3,
+        "xCoord": "-525%",
+        "yCoord": "300%",
+        "floor": 3,
+        "text": "Turn left and proceed forward.",
+        "imageName": "groupstudiesnorth"
+    },
+    {
+        "name": "learningCommonNorthInv",
+        "type": 5,
+        "xCoord": "-525%",
+        "yCoord": "-65%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "learningCommonSouthInv",
+        "type": 5,
+        "xCoord": "-1040%",
+        "yCoord": "-65%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "learningCommonMidInv",
+        "type": 5,
+        "xCoord": "-750%",
+        "yCoord": "-65%",
+        "floor": 3,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "learningCommons",
+        "type": 2,
+        "xCoord": "-750%",
+        "yCoord": "-545%",
+        "floor": 3,
+        "text": "Congratulations! You have arrived at the Learning Commons.",
+        "imageName": "LearningCommonsPic"
+    },
+    {
+        "name": "Administration",
+        "type": 2,
+        "xCoord": "-750%",
+        "yCoord": "-1150%",
+        "floor": 3,
+        "text": "Congratulations! You've arrived at the Administration Offices.",
+        "imageName": "AdministrationPic"
+    },
+    {
+        "name": "stairsTerrace",
+        "type": 3,
+        "top": "50%",
+        "left": "52%",
+        "xCoord": "-800%",
+        "yCoord": "725%",
+        "floor": 0,
+        "text": "Enter through the back entrance and continue down the hall.",
+        "imageName": "VinesEntrance"
+    },
+    {
+        "name": "terraceConference",
+        "type": 2,
+        "xCoord": "-200%",
+        "yCoord": "-1230%",
+        "floor": 0,
+        "text": "Congratulations!  You have arrived at the Terrace Conference Center",
+        "imageName": "TerraceConf"
+    },
+    {
+        "name": "backHallInv",
+        "type": 5,
+        "xCoord": "-555%",
+        "yCoord": "-1105%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "backTerraceConference",
+        "type": 2,
+        "xCoord": "-555%",
+        "yCoord": "-1230%",
+        "floor": 0,
+        "text": "Congratulations!  You have arrived at the Terrace Conference Center",
+        "imageName": "backTerraceConf"
+    },
+    {
+        "name": "60NonDest",
+        "type": 3,
+        "xCoord": "290%",
+        "yCoord": "-200%",
+        "floor": 0,
+        "text": "Continue through the 060 Suite to the elevator.",
+        "imageName": "test"
+    },
+    {
+        "name": "60Suite",
+        "type": 2,
+        "xCoord": "290%",
+        "yCoord": "-200%",
+        "floor": 0,
+        "text": "Congratulations!  You have arrived at the 060 Suite.",
+        "imageName": "60SuitePic"
+    },
+	{
+        "name": "60SuiteNonDest",
+        "type": 3,
+        "xCoord": "290%",
+        "yCoord": "-200%",
+        "floor": 0,
+        "text": "Continue through the 060 Suite",
+        "imageName": "60SuitePic"
+    },
+	
+    {
+        "name": "tinneyInvisibleFZ",
+        "type": 5,
+        "xCoord": "-840%",
+        "yCoord": "870%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "elevatorThreeInvisibleFZ",
+        "type": 5,
+        "xCoord": "-850%",
+        "yCoord": "60%",
+        "floor": 0,
+        "text": "",
+        "imageName": ""
+    },
+    {
+        "name": "elevatorTwoFloorZero",
+        "type": 3,
+        "xCoord": "-310%",
+        "yCoord": "870%",
+        "floor": 0,
+        "text": "Please enter the elevator, directly in front of you and proceed to the first floor.",
+        "imageName": "tinneyElevator"
+    },
+	{
+		"name": "entranceToTinny",
+		"type": 5,
+		"xCoord":"-840%",
+		"yCoord": "725%",
+		"floor": 0,
+		"text": "",
+		"imageName": ""
+	},
+	
+	
+    {
+        "name": "Cafe Entrance",
+        "type": 1,
+        "xCoord": "-840%",
+        "yCoord": "720%",
+        "floor": 0,
+        "text": "Enter the building and continue left down the hall to the elevator.",
+        "imageName": ""
+    },
+    {
+        "name": "tinneyDest",
+        "type": 2,
+        "xCoord": "-520%",
+        "yCoord": "1500%",
+        "floor": 1,
+        "text": "Congratulations!  You have arrived at the Tinney Cafe.",
+        "imageName": "CafeDest"
+    },
+    {
+        "name": "firstFloorElevatorTwo",
+        "type": 3,
+        "xCoord": "-430%",
+        "yCoord": "870%",
+        "floor": 1,
+        "text": "Exit the elevator and turn right into the Cafe area.",
+        "imageName": ""
+    },
+    {
+        "name": "tinneyInvisible",
+        "type": 3,
+        "xCoord": "-520%",
+        "yCoord": "870%",
+        "floor": 1,
+        "text": "",
+        "imageName": ""
+    }
+]

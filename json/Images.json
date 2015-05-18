@@ -1,0 +1,323 @@
+[
+{
+	"name": "A_info_1",
+	"URL": "http://i.imgur.com/DvEtsbH.jpg"
+},
+{
+	"name": "B_info_1",
+	"URL": "http://i.imgur.com/dzzRSvb.jpg"
+},
+{
+	"name": "C_info_1",
+	"URL": "http://i.imgur.com/46i8drp.jpg"
+},
+{
+	"name": "startWaypoint",
+	"URL": "http://i.imgur.com/Gim0kHY.png"
+},
+{
+	"name": "endWaypoint",
+	"URL": "http://i.imgur.com/pRXiZOv.png"
+},
+{
+	"name": "wPictureWaypoint",
+	"URL": "http://i.imgur.com/mte90RJ.png"
+},
+{
+	"name": "woutImageWaypoint",
+	"URL": "http://i.imgur.com/RLCo32A.png"
+},
+{
+	"name": "invisible2",
+	"URL": "http://i.imgur.com/Y3BH4cr.png"
+},
+{
+	"name": "Floor0",
+	"URL": "http://i.imgur.com/CYIIvBS.png"
+},
+{
+	"name": "Floor1",
+	"URL": "http://i.imgur.com/2wKDinI.png"
+},
+{
+	"name": "Floor2",
+	"URL": "http://i.imgur.com/Xqu4Ah3.png"
+},
+{
+	"name": "Floor3",
+	"URL": "http://i.imgur.com/UW682t0.png"
+},
+{
+	"name": "EsbenshadeTo060",
+	"URL": "http://i.imgur.com/0jGjUIH.jpg"
+},
+{
+	"name": "060Elevator",
+	"URL": "http://i.imgur.com/BoJbxAI.jpg"
+},
+{
+	"name": "170Suite",
+	"URL": "http://i.imgur.com/6u1bjtE.jpg"
+},
+{
+	"name": "BackEntrance",
+	"URL": "http://i.imgur.com/N3ZP3JI.jpg"
+},
+{
+	"name": "060toEsbenshade",
+	"URL": "http://i.imgur.com/yXqUEBI.jpg"
+},
+{
+	"name": "VinesEntrance",
+	"URL": "http://i.imgur.com/gjlLGaB.jpg"
+},
+{
+	"name": "mainEntrance",
+	"URL": "http://i.imgur.com/dnefsCn.jpg"
+},
+{
+	"name": "mediaWall",
+	"URL": "http://i.imgur.com/N8phjTE.jpg"
+},
+{
+	"name": "esbenshadeFirstFloor",
+	"URL": "http://i.imgur.com/swHIMFe.jpg"
+},
+{
+	"name": "170_fromVines",
+	"URL": "http://i.imgur.com/sa4uVL7.jpg"
+},
+{
+	"name": "custService",
+	"URL": "http://i.imgur.com/UpnN5XS.jpg"
+},
+{
+	"name": "1stFloorElevSouth",
+	"URL": "http://i.imgur.com/wxUlJbQ.jpg"
+},
+{
+	"name": "1stFloorCommons_custServ",
+	"URL": "http://i.imgur.com/jcvdC3G.jpg"
+},
+{
+	"name": "scholarsLounge",
+	"URL": "http://i.imgur.com/xOzs1uk.jpg"
+},
+{
+	"name": "CaudellReadingRoom",
+	"URL": "http://i.imgur.com/WUzoPCi.jpg"
+},
+{
+	"name": "2ndFloorElevatorNorth",
+	"URL": "http://i.imgur.com/eShD4zC.jpg"
+},
+{
+	"name": "280Suite",
+	"URL": "http://i.imgur.com/FkNsT8l.jpg"
+},
+{
+	"name": "220suite",
+	"URL": "http://i.imgur.com/1XXY4qb.jpg"
+},
+{
+	"name": "2ndFloorSkybridgeNorth",
+	"URL": "http://i.imgur.com/WVFSez9.jpg"
+},
+{
+	"name": "2ndFloorskybridgeSouth_220",
+	"URL": "http://i.imgur.com/lPAZz8U.jpg"
+},
+{
+	"name": "2ndFloorWP_220",
+	"URL": "http://i.imgur.com/l5rN9la.jpg"
+},
+{
+	"name": "220_south_elev",
+	"URL": "http://i.imgur.com/acgSo0C.jpg"
+},
+{
+	"name": "southElev_220",
+	"URL": "http://i.imgur.com/llU6huG.jpg"
+},
+{
+	"name": "2ndFloor_hallwayToskybridge",
+	"URL": "http://i.imgur.com/RDATxi6.jpg"
+},
+{
+	"name": "2ndFloorSkybridgeNorth_280",
+	"URL": "http://i.imgur.com/XsZWsOa.jpg"
+},
+{
+	"name": "2ndFloorComputerWall",
+	"URL": "http://i.imgur.com/XOInvgR.jpg"
+},
+{
+	"name": "261suite",
+	"URL": "http://i.imgur.com/AI6t05l.jpg"
+},
+{
+	"name": "backToEsbenshade",
+	"URL": "http://i.imgur.com/vVnEfdg.jpg"
+},
+{
+	"name": "scienceEntrance",
+	"URL": "http://i.imgur.com/vBLTdyj.jpg"
+},
+{
+	"name": "terraceDoorToElevator",
+	"URL": "http://i.imgur.com/9b96Jvw.jpg"
+},
+{
+	"name": "terraceElevatorSouth",
+	"URL": "http://i.imgur.com/7qbiL7H.jpg"
+},
+{
+	"name": "firstFloorElevatorNorth",
+	"URL": "http://i.imgur.com/Nd2orVB.jpg"
+},
+{
+	"name": "TerraceConf",
+	"URL": "http://i.imgur.com/g2ZbJAf.jpg"
+},
+{
+	"name": "DodakPic",
+	"URL": "http://i.imgur.com/M3yod66.jpg"
+},
+{
+	"name": "ThirdFloorElevatorSouth",
+	"URL": "http://i.imgur.com/fPqkjTD.jpg"
+},
+{
+	"name": "groupSouthPic",
+	"URL": "http://i.imgur.com/ZdYzlrT.jpg"
+},
+{
+	"name": "LearningCommonsPic",
+	"URL": "http://i.imgur.com/Ap0RZr5.jpg"
+},
+{
+	"name": "AdministrationPic",
+	"URL": "http://i.imgur.com/6tb2LGT.jpg"
+},
+{
+	"name": "ThirdfloorNorthEle",
+	"URL": "http://i.imgur.com/aeSJ8vx.jpg"
+},
+{
+	"name": "361SuitePic",
+	"URL": "http://i.imgur.com/Hv5uCMI.jpg"
+},
+{
+	"name": "to361Suite",
+	"URL": "http://i.imgur.com/gNL0bVI.jpg"
+},
+{
+	"name": "CafeDest",
+	"URL": "http://i.imgur.com/v7zJtqd.jpg"
+},
+{
+	"name": "stairstocafealt",
+	"URL": "http://i.imgur.com/wcV8pVn.jpg"
+},
+{
+	"name": "60SuitePic",
+	"URL": "http://i.imgur.com/FYnr49E.jpg"
+},
+{
+	"name": "SkybridgeNorth",
+	"URL": "http://i.imgur.com/sMVXfbq.jpg"
+},
+{
+	"name": "SkybridgeSouth",
+	"URL": "http://i.imgur.com/X74bPxk.jpg"
+},
+{
+	"name": "groupstudiesnorth",
+	"URL": "http://i.imgur.com/7Poks3E.jpg"
+},
+{
+	"name": "firstfloorstairs",
+	"URL": "http://i.imgur.com/g4p88It.jpg"
+},
+{
+	"name": "tinnyelevator",
+	"URL": "http://i.imgur.com/dC8eosH.jpg"
+},
+{
+	"name": "skybridgebackhall",
+	"URL": "http://i.imgur.com/QJv1OY0.jpg"
+},
+{
+	"name": "scholarscommons2",
+	"URL": "http://i.imgur.com/gNL0bVI.jpg"
+},
+{
+	"name": "3rdfloortoskybridge",
+	"URL": "http://i.imgur.com/QJv1OY0.jpg"
+},
+{
+	"name": "hallwayToCaudell",
+	"URL": "http://i.imgur.com/1L9XQdp.jpg"
+},
+{
+	"name": "TerraceElevatorzero",
+	"URL": "http://i.imgur.com/dC8eosH.jpg"
+},
+
+{
+	"name": "170suiteNonEnd",
+	"URL": "http://i.imgur.com/Mmet1rv.jpg"
+},
+{
+	"name": "170Elevator_toCustomerService",
+	"URL": "http://i.imgur.com/yfNkB65.jpg"
+},
+{
+	"name": "170fromelevator",
+	"URL": "http://i.imgur.com/EfOT0ew.jpg"
+},
+{
+	"name": "170toCustServ",
+	"URL": "http://i.imgur.com/nybLQA9.jpg"
+},
+{
+	"name": "elevatortoSkybridge",
+	"URL": "http://i.imgur.com/p3LstHq.jpg"
+},
+{
+	"name": "tinneyElevator",
+	"URL": "http://i.imgur.com/pc6GFbi.jpg"
+},
+{
+	"name": "skybridgeoutgoing",
+	"URL": "http://i.imgur.com/FoQWM8t.jpg"
+},
+{
+	"name": "placeholder",
+	"URL": "images/placeholder.png"
+},
+{
+	"name": "2ndFloorSkybridgeSouth",
+	"URL": "http://i.imgur.com/rylLAWS.jpg"
+},
+{
+	"name": "terraceElevatorNorth",
+	"URL": "http://i.imgur.com/aXdRNZ0.jpg"
+},
+{
+	"name": "terraceElevatorNorth_out",
+	"URL": "http://i.imgur.com/Qn0CniJ.jpg"
+},
+{
+	"name": "mainToTinney",
+	"URL": "http://i.imgur.com/EzdVDcam.jpg"
+},
+{
+	"name": "TurnToTinney",
+	"URL": "http://i.imgur.com/BnFLBVgm.jpg"
+},
+{
+	"name": "backTerraceConf",
+	"URL": "http://i.imgur.com/rFUKNZR.jpg"
+}
+]

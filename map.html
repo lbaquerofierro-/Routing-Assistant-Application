@@ -1,0 +1,177 @@
+<!--
+	
+	Author:Lina Baquero, 
+		Rodwin Spruel, 
+		Walter Schultz
+	Description:This documet is used to display the interactive map that the user sees to get their instructions from. 
+	
+	-->
+
+<html>
+	<head>
+		<title>LibNav 1.0</title>
+		<meta charset="utf-8">
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+		
+		<link rel="stylesheet" href="css/standardize.css">
+		<link rel="stylesheet" href="css/index-grid.css">
+		<link rel="stylesheet" href="css/stylemap.css">
+		<link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+		
+		<script src="js/jQuery/jquery-1.11.2.min.js"></script>
+		<script src="js/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="js/panzoom/jquery.panzoom.js"></script>
+		
+		<script src="js/DatabaseCommunication.js"></script>
+		<script src="js/WaypointClass.js"></script>
+		<script src="js/Routing.js"></script>
+		<script src="js/Map.js"></script>
+        <script src="js/ionic.bundle.js"></script>
+        <link rel="stylesheet" href="css/ionic.css">
+        
+	</head>
+    
+    
+	<body id = "body1" class="body page-index clearfix" onload="map.DrawLines(map.Floors[map.CurrentLayer]);">
+        
+        
+        <!-- Main body styling/ pin zoom in/out -->
+        <div id="panzoom-elements" class="panzoom-elements">
+			<canvas id="canvas"></canvas>
+			<div id="main" class="body page-index clearfix"></div>
+		</div>
+        
+        <!-- Instructions -->
+        <div id="inst">
+            <p id="text"></p>
+        </div>
+        
+        <!-- Footer -->
+		<div id="footer">
+			<input id="forward" type="image" src="images/icons/forward-arrow.png" onclick="downFloor()"></input>
+			<input id="home" type="image" src="images/icons/home.png" onclick="window.location.href = 'origin.html'" value="Home"></input>
+			<input id="back" type="image" src="images/icons/background-arrow.png" onclick="upFloor()"></input>
+		</div>
+		
+		
+		
+		<script type="text/javascript">
+			
+									
+			/* =====================
+	           LOAD/DRAW MAP
+	           ===================== */
+			var map = new Map();
+			
+			//This function extracts the initial and final destination from the URL and loads the map
+			function displayRoute(){
+								
+				var query = window.location.search.substring(1);
+				var vars = query.split("&");
+
+				var start = vars[0].replace(/%20/g, ' ');
+				var end = vars[1].replace(/%20/g, ' ');
+				
+				var route = new Route(start, end);
+			
+				if (route.route.length <= 0) {
+					alert("Error on this route");
+					window.location.href = "origin.html";
+				}
+				
+				map.LoadRoute(route.route);
+				
+				
+			}
+			
+			function upFloor() {
+				map.walkForward();
+                setListeners();				
+			}
+			
+			function downFloor() {
+				map.walkBack();
+                setListeners();
+			}
+			
+			displayRoute();
+            
+			
+			/* =====================
+	           RESIZING SCREEN HANDLING (WEB APP)
+	           ===================== */
+			
+			//Check for window resize to redraw lines
+			$(window).resize(function() {
+				//Draw the lines
+				map.DrawLines(map.Floors[map.CurrentLayer]);
+			});
+			
+           
+           /* =====================
+	           PIN ZOOM HANDLING   (Native Mode)
+	          ===================== */
+            
+            //Test to see if app is running natively 
+            var isCordovaApp = document.URL.indexOf('http://') === -1
+            && document.URL.indexOf('https://') === -1;
+        
+	          
+	            // This prevents the whole screen from moving when the screen is frozen
+            document.getElementById('body1').addEventListener('touchmove', function(e) { 
+                // Cancel the event
+                e.preventDefault();
+            }, false);
+            
+            //Initialize zoom feature 
+           $(".panzoom-elements").panzoom();
+           $(".panzoom-elements").panzoom({contain: true});
+           $(".panzoom-elements").panzoom("disable");
+         
+           //Adding special listeners to waypoints to detect when they are tapped, freeze the map from moving while the popup picture is being displayed. 
+            function setListeners (){
+                var waypoints = document.getElementsByClassName('popup')
+                var i = waypoints.length;
+                
+                for ( var j = 0 ; i > j; j++ )
+                {
+                    waypoints[j].addEventListener('touchstart', function(e) {
+                        // Disable the listener event, so popup can accure
+                         $(".panzoom-elements").panzoom("disable");          
+                    }, false);
+                    
+                    waypoints[j].addEventListener('click',  function(e) {
+                        // Disable the listener event, so popup can accure
+                         $(".panzoom-elements").panzoom("disable");          
+                    }, false);
+                    
+                }
+            }
+            
+            setListeners();
+            
+            //This enables the pan/zoom feature on the map when even the user touches the screen
+             document.getElementById('panzoom-elements').addEventListener('touchstart', function(e) {
+              $(".panzoom-elements").panzoom("enable");
+               
+            }, false);
+        
+            $(".panzoom-elements").on('mousewheel.focal', function (e) {
+                e.preventDefault();
+            });
+            
+             //Check to see if app is running in phonegap on in web browser. 
+            //If running in phonegap use zoom library to enable native mode map zoom 
+            
+            if ( isCordovaApp ) {
+                
+             document.getElementById('panzoom-elements').addEventListener('touchstart', function(e) {
+              $(".panzoom-elements").panzoom("enable");
+               
+            }, false);
+            }
+            
+            
+		</script>
+	</body>
+</html>

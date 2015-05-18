@@ -1,0 +1,3239 @@
+[
+    {
+        "name": "MainEntranceToCustomerService",
+        "start": "Main Entrance",
+        "end": "Customer Service Center",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "firstFloorEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "customerService",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceToCustomerService",
+        "start": "Lakeside Entrance",
+        "end": "Customer Service Center",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],		
+	    [
+                "170Elevator_custServ",
+                "",
+                "Exit the elevator and continue through the 170 Suite."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170_custServ",
+                "",
+                ""
+            ],
+            [
+                "customerService",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceToCustomerService",
+        "start": "Science Hall Entrance",
+        "end": "Customer Service Center",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+	    [
+                "170Elevator_custServ",
+                "",
+                "Exit the Elevator and continue to the 170 Suite"
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170_custServ",
+                "",
+                ""
+            ],
+            [
+                "customerService",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceToCustomerService",
+        "start": "Vines Entrance",
+        "end": "Customer Service Center",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                ""
+            ],
+            [
+                "customerService",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceTo261Suite",
+        "start": "Main Entrance",
+        "end": "261 Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170ElevatorInvisible",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "261Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceTo261Suite",
+        "start": "Lakeside Entrance",
+        "end": "261 Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "261Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceTo261Suite",
+        "start": "Science Hall Entrance",
+        "end": "261 Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "261Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceTo261Suite",
+        "start": "Vines Entrance",
+        "end": "261 Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorSouth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloor_hallwayToskybridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeNorth_261",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeSouth_280",
+                "",
+                ""
+            ],
+            [
+                "261Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceTo220Suite",
+        "start": "Main Entrance",
+        "end": "220 Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170ElevatorInvisible",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorskybridgeSouth_220",
+                "",
+                ""
+            ],
+            [
+                "secondFloorWP_220",
+                "",
+                ""
+            ],
+            [
+                "220Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceTo220Suite",
+        "start": "Lakeside Entrance",
+        "end": "220 Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorskybridgeSouth_220",
+                "",
+                ""
+            ],
+            [
+                "secondFloorWP_220",
+                "",
+                ""
+            ],
+            [
+                "220Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceTo220Suite",
+        "start": "Science Hall Entrance",
+        "end": "220 Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorComputerWall",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorskybridgeSouth_220",
+                "",
+                ""
+            ],
+            [
+                "secondFloorWP_220",
+                "",
+                ""
+            ],
+            [
+                "220Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceTo220Suite",
+        "start": "Vines Entrance",
+        "end": "220 Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorSouth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "220_south_elevator",
+                "",
+                ""
+            ],
+            [
+                "220Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceTo280Suite",
+        "start": "Main Entrance",
+        "end": "280 Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170ElevatorInvisible",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorN_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorTo280",
+                "",
+                ""
+            ],
+            [
+                "280Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceTo280Suite",
+        "start": "Lakeside Entrance",
+        "end": "280 Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorN_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorTo280",
+                "",
+                ""
+            ],
+            [
+                "280Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceTo280Suite",
+        "start": "Science Hall Entrance",
+        "end": "280 Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorN_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorTo280",
+                "",
+                ""
+            ],
+            [
+                "280Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceTo280Suite",
+        "start": "Vines Entrance",
+        "end": "280 Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 2"
+            ],
+            [
+                "secondFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "secondFloorElevatorSouth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloor_hallwayToskybridge",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeSouth_280",
+                "",
+                ""
+            ],
+            [
+                "secondFloorSkybridgeNorth_280",
+                "",
+                ""
+            ],
+            [
+                "261Suite_Invisible",
+                "",
+                ""
+            ],
+            [
+                "secondFloorTo280_Invisible",
+                "",
+                ""
+            ],
+            [
+                "280Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceToScholarsLounge",
+        "start": "Main Entrance",
+        "end": "Scholars Lounge",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170ElevatorInvisible",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                "Exit the elevator and turn right twice"
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_scholars",
+                "",
+                ""
+            ],
+            [
+                "Scholars Lounge",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesToScholarsLounge",
+        "start": "Vines Entrance",
+        "end": "Scholars Lounge",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloor_hallwayToskybridge",
+                "3rdfloortoskybridge",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth_scholars",
+                "scholarscommons2",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "Scholars Lounge",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceToScholarsLounge",
+        "start": "Lakeside Entrance",
+        "end": "Scholars Lounge",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_scholars",
+                "",
+                ""
+            ],
+            [
+                "Scholars Lounge",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceToScholarsLounge",
+        "start": "Science Hall Entrance",
+        "end": "Scholars Lounge",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_scholars",
+                "",
+                ""
+            ],
+            [
+                "Scholars Lounge",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceTo170Suite",
+        "start": "Main Entrance",
+        "end": "170 Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceTo170Suite",
+        "start": "Lakeside Entrance",
+        "end": "170 Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+				"firstFloorElevatorNorth_exit",
+				"",	
+				"Exit the Elevator and continue to the 170 Suite"
+			],
+			
+			[
+                "firstFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "170Elevator_suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceTo170Suite",
+        "start": "Vines Entrance",
+        "end": "170 Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                ""
+            ],
+            [
+                "170_fromVines",
+                "",
+                ""
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceTo170Suite",
+        "start": "Science Hall Entrance",
+        "end": "170 Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+				"firstFloorElevatorNorth_exit",
+				"",	
+				"Exit the Elevator and continue to the 170 Suite"
+			],
+			[
+                "170Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainEntranceToCaudell",
+        "start": "Main Entrance",
+        "end": "Caudell Reading Room",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170Invisible",
+                "",
+                ""
+            ],
+            [
+                "170ElevatorInvisible",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "skybridgeSouth",
+                "",
+                ""
+            ],
+            [
+                "Caudell Reading Room",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackEntranceToCaudell",
+        "start": "Lakeside Entrance",
+        "end": "Caudell Reading Room",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "skybridgeSouth",
+                "",
+                ""
+            ],
+            [
+                "Caudell Reading Room",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "VinesEntranceToCaudell",
+        "start": "Vines Entrance",
+        "end": "Caudell Reading Room",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevator_toCaudell",
+                "hallwayToCaudell",
+                ""
+            ],
+            [
+                "Caudell Reading Room South",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceHallEntranceToCaudell",
+        "start": "Science Hall Entrance",
+        "end": "Caudell Reading Room",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorToN_Bridge",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "skybridgeSouth",
+                "",
+                ""
+            ],
+            [
+                "Caudell Reading Room",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainTo320Suite",
+        "start": "Main Entrance",
+        "end": "320Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_fromVines",
+                "170toCustServ",
+                "Continue past the Customer Service Center, toward the Learning Commons"
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                "Turn left and continue to the elevator"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                "Enter the elevator and continue to floor 3."
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "groupstudiesSouth",
+                "Turn left and proceed forward.",
+                ""
+            ],
+            [
+                "320Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "backTo320Suite",
+        "start": "Lakeside Entrance",
+        "end": "320Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                ""
+            ],
+            [
+                "320Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "scienceTo320Suite",
+        "start": "Science Hall Entrance",
+        "end": "320Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                ""
+            ],
+            [
+                "320Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "tinneyTo320Suite",
+        "start": "Vines Entrance",
+        "end": "320Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "groupstudiesSouth",
+                "",
+                ""
+            ],
+            [
+                "320Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainToLearningCommons",
+        "start": "Main Entrance",
+        "end": "learningCommons",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_fromVines",
+                "",
+                ""
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                "Turn right and continue to the Elevator"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                "Enter the elevator and continue to floor 3."
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                "Exit the Elevator and turn left towards the learning commons."
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "learningCommonSouthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommons",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "backToLearningCommons",
+        "start": "Lakeside Entrance",
+        "end": "learningCommons",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                ""
+            ],
+            [
+                "learningCommonNorthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommons",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "scienceToLearningCommons",
+        "start": "Science Hall Entrance",
+        "end": "learningCommons",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                ""
+            ],
+            [
+                "learningCommonNorthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommons",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "TinneyToLearningCommons",
+        "start": "Vines Entrance",
+        "end": "learningCommons",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                "Exit the Elevator and turn left towards the learning commons."
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "learningCommonSouthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommons",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainToAdmin",
+        "start": "Main Entrance",
+        "end": "Administration",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_fromVines",
+                "",
+                ""
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                "Turn right and continue to the Elevator"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                "Enter the elevator and continue to floor 3."
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                "Exit the Elevator and turn left towards the learning commons."
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "learningCommonSouthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "Administration",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "backToAdmin",
+        "start": "Lakeside Entrance",
+        "end": "Administration",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                "Continue past the 320 Suite"
+            ],
+            [
+                "learningCommonNorthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "Administration",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "scienceToAdmin",
+        "start": "Science Hall Entrance",
+        "end": "Administration",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                "Exit the sky bridge and take the first right."
+            ],
+            [
+                "groupstudiesNorth",
+                "",
+                "Continue past the 320 Suite"
+            ],
+            [
+                "learningCommonNorthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "Administration",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "cafetoAdmin",
+        "start": "Vines Entrance",
+        "end": "Administration",
+        "waypointList": [
+           [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                "Exit the Elevator and head left towards the Deep Quiet Space"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                "Exit the Elevator and turn left towards the learning commons."
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "learningCommonSouthInv",
+                "",
+                ""
+            ],
+            [
+                "learningCommonMidInv",
+                "",
+                ""
+            ],
+            [
+                "Administration",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainTo361Suite",
+        "start": "Main Entrance",
+        "end": "361Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and proceed to the level 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "to361Suite",
+                "Once you reach the Skybridge turn left and enter the Honors Conference room."
+            ],
+            [
+                "361Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "backTo361Suite",
+        "start": "Lakeside Entrance",
+        "end": "361Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "to361Suite",
+                "Once you reach the Skybridge turn left and enter the Honors Conference room."
+            ],
+            [
+                "361Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "scienceTo361Suite",
+        "start": "Science Hall Entrance",
+        "end": "361Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 3."
+            ],
+            [
+                "thirdFloorElevatorNorth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorNorth_Invisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorWP_scholarsInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "to361Suite",
+                "Once you reach the Skybridge turn left and enter the Honors Conference room."
+            ],
+            [
+                "361Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "tinneyTo361Suite",
+        "start": "Vines Entrance",
+        "end": "361Suite",
+        "waypointList": [
+           [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 3"
+            ],
+            [
+                "thirdFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorElevator_toCaudell",
+                "",
+                "At the end of the hall turn left and cross the skybridge."
+            ],
+            [
+                "thirdFloorskybridgeSouth_scholars",
+                "",
+                ""
+            ],
+            [
+                "thirdFloorSkybridgeNorth",
+                "to361Suite",
+                "Enter the room infront of you"
+            ],
+            [
+                "361Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainToDodak",
+        "start": "Main Entrance",
+        "end": "dodak",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "dodakInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodak",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackToDodak",
+        "start": "Lakeside Entrance",
+        "end": "dodak",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1."
+            ],
+            [
+                "firstFloorElevatorNorth_exit",
+                "",
+                "Exit the elevator and walk through the group study room."
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                "Exit the group study room and continue past the media wall."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodakInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodak",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceToDodak",
+        "start": "Science Hall Entrance",
+        "end": "dodak",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1."
+            ],
+            [
+                "firstFloorElevatorNorth_exit",
+                "",
+                "Exit the elevator and walk through the group study room."
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                "Exit the group study room and continue past the media wall."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodakInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodak",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "TinneyToDodak",
+        "start": "Vines Entrance",
+        "end": "dodak",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                ""
+            ],
+            [
+                "vinesEntrance_toStairsInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorDoorToElevator",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouthInvisible",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorSouth",
+                "",
+                "Enter the elevator and go to floor 1"
+            ],
+            [
+                "firstFloorElevatorSouth",
+                "",
+                ""
+            ],
+            [
+                "firstFloorCommons_custServ",
+                "",
+                ""
+            ],
+            [
+                "170_fromVines",
+                " ",
+                ""
+            ],
+            [
+                "dodakInvisible",
+                "",
+                ""
+            ],
+            [
+                "dodak",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainToTinny",
+        "start": "Main Entrance",
+        "end": "tinneyCafe",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                "Enter the building and go down the hall on the left."
+            ],
+            [
+                "firstFloorStairs",
+                "stairstocafealt",
+                ""
+            ],
+            [
+                "tinneyDest",
+                "CafeDest",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackToTinny",
+        "start": "Lakeside Entrance",
+        "end": "tinneyCafe",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1."
+            ],
+            [
+                "firstFloorElevatorNorth_exit",
+                "170fromelevator",
+                "Exit the elevator and walk through the 170 Suite."
+            ],
+            [
+                "170SuiteNonEnd",
+                "170toCustServ",
+                "Exit the group study room and continue past the media wall."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "mainEntranceNonDest",
+                "mainToTinney",
+                "Continue to the main entrance and through the hall to the right."
+            ],
+            [
+                "firstFloorStairs",
+                "TurnToTinney",
+                "Turn left into the Tinney Cafe"
+            ],
+            [
+                "tinneyDest",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceToTinny",
+        "start": "Science Hall Entrance",
+        "end": "tinneyCafe",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                ""
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to floor 1."
+            ],
+            [
+                "firstFloorElevatorNorth_exit",
+                "",
+                "Exit the elevator and walk through the group study room."
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                "Exit the group study room and continue past the media wall."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "mainEntranceNonDest",
+                "",
+                "Continue to the main entrance and continue down the hall to the right."
+            ],
+            [
+                "firstFloorStairs",
+                "",
+                ""
+            ],
+            [
+                "tinneyDest",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "TinnyToTinny",
+        "start": "Vines Entrance",
+        "end": "tinneyCafe",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                "Enter the building and enter the cafe to your right."
+            ],
+           [
+				"entranceToTinny",
+				"",
+				""
+			],
+
+		   [
+                "tinneyInvisibleFZ",
+                "",
+                ""
+            ],
+            [
+                "elevatorTwoFloorZero",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorTwo",
+                "stairstocafealt",
+                ""
+            ],
+            [
+                "tinneyInvisible",
+                "stairstocafealt",
+                ""
+            ],
+            [
+                "tinneyDest",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainTo60suite",
+        "start": "Main Entrance",
+        "end": "060 Suite",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and go to the Terrace level"
+            ],
+            [
+                "terraceFloorElevatorNorth_to1st",
+                "terraceElevatorNorth_out",
+                "Exit the elevator and continue to the 060 Suite."
+            ],
+            [
+                "60Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackTo60Suite",
+        "start": "Lakeside Entrance",
+        "end": "060 Suite",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                ""
+            ],
+            [
+                "backHallwayToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceTo60Suite",
+        "start": "Science Hall Entrance",
+        "end": "060 Suite",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                ""
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "esbenshadeTo060",
+                "",
+                ""
+            ],
+            [
+                "60Suite",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "TinnyTo60Suite",
+        "start": "Vines Entrance",
+        "end": "060 Suite",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                "Enter the building and continue up the stairs."
+            ],
+            [
+                "stairsTerrace",
+                "VinesEntrance",
+                ""
+            ],
+            [
+                "firstFloorStairs",
+                "",
+                ""
+            ],
+            [
+                "mainEntranceNonDest",
+                "",
+                "Continue through the main entrance."
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and proceed to the Terrace level."
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "terraceElevatorNorth_out",
+                "Exit the elevator, into the 060 Suite"
+            ],
+            [
+                "60Suite",
+                "terraceElevatorNorth",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "MainToterrace",
+        "start": "Main Entrance",
+        "end": "Terrace Conference Room",
+        "waypointList": [
+            [
+                "mainEntrance",
+                "",
+                ""
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and proceed to the Terrace level."
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "terraceElevatorNorth_out",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "terraceElevatorNorth",
+                ""
+            ],
+            [
+                "060ToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "terraceConference",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "BackToterrace",
+        "start": "Lakeside Entrance",
+        "end": "Terrace Conference Room",
+        "waypointList": [
+            [
+                "backEntrance",
+                "",
+                "Walk down the hallway and take the first left."
+            ],
+            [
+                "backHallInv",
+                "",
+                ""
+            ],
+            [
+                "backTerraceConference",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "ScienceToterrace",
+        "start": "Science Hall Entrance",
+        "end": "Terrace Conference Room",
+        "waypointList": [
+            [
+                "scienceHallEntrance",
+                "",
+                "Enter the building and go straight through the Embershade Atrium."
+            ],
+            [
+                "scienceHallEntrance_Invisible",
+                "",
+                ""
+            ],
+            [
+                "terraceConference",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "name": "TinnyToterrace",
+        "start": "Vines Entrance",
+        "end": "Terrace Conference Room",
+        "waypointList": [
+            [
+                "vinesEntrance",
+                "",
+                "Enter the building and continue up the stairs."
+            ],
+            [
+                "stairsTerrace",
+                "",
+                ""
+            ],
+            [
+                "firstFloorStairs",
+                "",
+                ""
+            ],
+            [
+                "mainEntranceNonDest",
+                "",
+                "Continue through the main doors"
+            ],
+            [
+                "mediaWall",
+                "",
+                ""
+            ],
+            [
+                "170_custServInvisible",
+                "",
+                ""
+            ],
+            [
+                "170SuiteNonEnd",
+                "",
+                ""
+            ],
+            [
+                "firstFloorElevatorNorth",
+                "",
+                "Enter the elevator and proceed to the Terrace level."
+            ],
+            [
+                "terraceFloorElevatorNorth",
+                "terraceElevatorNorth_out",
+                ""
+            ],
+            [
+                "60SuiteNonDest",
+                "",
+                "Continue through the 60 Suite into the Esbenshade Atrium."
+            ],
+            [
+                "060ToEsbenshade",
+                "",
+                ""
+            ],
+            [
+                "terraceConference",
+                "",
+                ""
+            ]
+        ]
+    }
+]

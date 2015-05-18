@@ -1,0 +1,85 @@
+<!--
+	
+	Author:Lina Baquero, 
+		Rodwin Spruel, 
+	Description:This documet is used to display the video tutorial for the application. The . 
+	
+	-->
+
+<html>
+	<head>
+		<title>LibNav 1.0</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="stylesheet" href="css/standardize.css">
+		<link rel="stylesheet" href="css/index-grid.css">
+		<link rel="stylesheet" href="css/stylemap.css">
+        <script type="text/javascript" src="js/vimeo-api/froogaloop2.min.js"></script>  <!-- Libray used to make and recieve calls from Vimeo video API --> 
+ 
+		<script src="js/jQuery/jquery-1.11.2.min.js"></script>
+   
+	</head>
+	
+	<body id = "body3" class="body page-index clearfix" >
+     
+             <!-- This is the embedded tutorial video hosted on vimeo -->
+             <!-- It is used to play the tutorial in the webabpp and android devices -->
+           <iframe id="video1" src="https://player.vimeo.com/video/125539066?autoplay=1&title=0&byline=0&portrait=0&api=1&player_id=video1" width="100%" height="96%" frameborder="0" ></iframe>
+     
+        <!-- Footer/home icon -->
+		<div id="footer">
+			<input id="home" type="image" src="images/icons/home.png" onclick="window.location.href='origin.html'" value="Home"></input>
+		</div>
+        
+        
+    <script type="text/javascript">
+       //Since when phonegap changes pages using file:// instead of http:// or https:// it is a great
+      //indicator to the app to let it know of it is running in a web browser or in phonegap(cordova).
+        var isCordovaApp = document.URL.indexOf('http://') === -1
+        && document.URL.indexOf('https://') === -1;
+        
+         if (isCordovaApp) {
+             //You should only add this library if it running in phonegap. 
+             //Adding it the webapp will lead to unpredictable/undesired results
+            document.write('<script type="text/javascript" src="cordova.js"><\/script>');
+        
+             
+             if (device.platform == "iOS") {
+                 //Remove iframe that is used to play tutorial on web browsers and android devices
+                 $( '#video1').remove();
+                 
+                // Wait for phonegap device API libraries to load
+                document.addEventListener("deviceready", onDeviceReady, false);
+
+                // phonegap device APIs are available
+                function onDeviceReady() {
+                     var ref = window.open('https://player.vimeo.com/video/125539066?autoplay=1&title=0&byline=0&portrait=0&api=1&player_id=video1', '_blank', 'location=no');
+                     ref.addEventListener('loadstart', function(event) { });
+                     ref.addEventListener('exit', function(event) { window.location.href = "origin.html"; });
+                }
+            }
+         }
+          
+        //This function is used to make redirect the user back to the main memu after the video finishes
+        $(function () {
+                //Get the tutorial iframe
+                var iframe = $('#video1')[0];
+                //Used to make and recieve calls from Vimeo's video API
+                var player = $f(iframe);
+
+                // When the video player is ready, add listener for the the video to end 
+                player.addEvent('ready', function() {
+                    player.addEvent('finish', onFinish);
+                    
+                });
+
+                function onFinish(id) {
+                    window.location.href = "origin.html";
+                }
+            });
+		</script>
+        
+		
+	</body>
+</html>

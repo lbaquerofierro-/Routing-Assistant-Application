@@ -1,0 +1,75 @@
+<!--
+	Author: Lina Baquero
+    Date: Febuary 23, 2015
+	Description: This page is the main menu to the application
+		1. Select a route
+		2. Tutorial
+		3. Information about the app
+	-->
+
+<html>
+	<head>
+		<title>LibNav 1.0</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="stylesheet" href="css/standardize.css">
+		<link rel="stylesheet" href="css/index-grid.css">
+		<link rel="stylesheet" href="css/stylemap.css">
+	</head>
+	
+    <!-- Main body containing the three icons described in the description above-->
+	<body id="body3" class="body page-index clearfix" >
+		<div class="options clearfix">
+			<input class="selectroute" type="image" src="images/icons/route.png" onclick="window.location.href='origin.html'" value="Home"></input>
+			<img class="tutorial" src="images/icons/tutorial.png" onclick="window.location.href='tutorial.html'">
+			<input class="info" type="image" src="images/icons/info.png" onclick="window.location.href='info.html'">			
+        </div>
+    
+		<!-- Footer -->
+		<div id="footer">
+		</div>
+    
+    
+    <script type="text/javascript">
+        //Since when phonegap changes pages using file:// instead of http:// or https:// it is a great
+        //indicator to the app to let it know of it is running in a web browser or in phonegap(cordova).
+        var isCordovaApp = document.URL.indexOf('http://') === -1
+        && document.URL.indexOf('https://') === -1;
+        
+        if (isCordovaApp) {
+            //You should only add this library if it running in phonegap. 
+             //Adding it the webapp will lead to unpredictable/undesired results
+            document.write('<script type="text/javascript" src="cordova.js"><\/script>');
+            InternetCheck();
+        }
+ 
+        //The following checks that there is an internet connection if it is running in phonegap
+        function InternetCheck () {
+            
+            // Wait for phonegap device API libraries to load
+                document.addEventListener("deviceready", onDeviceReady, false);
+
+                // phonegap device APIs are available
+                function onDeviceReady() {
+                    
+                    //make a call to phonegap plugin to check the device's network state 
+                    var networkState = navigator.connection.type;
+                    
+                    //display message if there is no internet connection
+                    if ( (networkState == "none") || (networkState == "unknown") ) {
+                        navigator.notification.confirm(
+                            'We want you be be able to use all of the features of this application.' 
+                            + ' To do this we need you to double check your internet settings to make sure your device'
+                            + ' is connect to the internet.',            // Message
+                            'Internet Issue',           // title
+                            ['Continue']         // buttonLabels
+                            );
+                    }
+                }
+        }
+        
+        </script>
+
+	</body>
+	
+</html>
