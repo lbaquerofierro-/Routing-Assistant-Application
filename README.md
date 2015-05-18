@@ -3,4 +3,4 @@ This application guides the user through the Liberty University Library. The use
 
 In addition the main menu provides the user with a tutorial and general information about the library.
 
-This project was built using HTML, CSS, JavaScript, NodeJs (to store the waypoints), AngularJs (controllers), and JQuery. 
+This project was built using HTML, CSS, JavaScript, NodeJs (to store the waypoints), AngularJs (controllers), and JQuery. This application was later run through PhoneGap to obtain iOS and Android compatible versions.
