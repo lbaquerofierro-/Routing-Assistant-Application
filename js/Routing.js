@@ -1,7 +1,7 @@
 /*
 ======================
 Name: Routing
-Author: Walter Schultz
+Author: Lina Baquero
 Functions: getWaypoint
 ======================
 */
